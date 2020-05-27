@@ -1,1 +1,7 @@
 #!/bin/sh -e
+
+cmake -B build \
+    -DCMAKE_INSTALL_PREFIX=/usr
+
+make
+make DESTDIR="$1" install
