@@ -24,3 +24,6 @@
 - [ ] qterminal
 - [ ] upower
 - [ ] xdg-utils
+- [ ] liblxqt
+- [ ] qt5
+- [x] elogind (via [kiss-kde](https://github.com/dilyn-corner/KISS-kde) repo)
