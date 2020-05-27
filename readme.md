@@ -19,7 +19,7 @@
 - [ ] lxqt-sudo
 - [ ] lxqt-themes
 - [ ] obconf-qt
-- [ ] openbox
+- [x] openbox (via [community](https://github.com/kisslinux/community) repo)
 - [ ] pcmanfm-qt
 - [ ] qterminal
 - [ ] upower
