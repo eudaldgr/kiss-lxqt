@@ -25,5 +25,5 @@
 - [ ] upower
 - [ ] xdg-utils
 - [ ] liblxqt
-- [ ] qt5
+- [x] qt5 (via [community](https://github.com/kisslinux/community) repo)
 - [x] elogind (via [kiss-kde](https://github.com/dilyn-corner/KISS-kde) repo)
