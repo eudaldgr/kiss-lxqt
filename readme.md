@@ -1,4 +1,5 @@
 # kiss-lxqt
+:construction: This repository is in a early stage.
 
 - [ ] lxqt
 
@@ -10,20 +11,21 @@
 - [x] lxqt-admin
 - [ ] lxqt-archiver
 - [ ] lxqt-config
-- [ ] lxqt-globalkeys
-- [ ] lxqt-notificationd
-- [ ] lxqt-openssh-askpass
+- [x] lxqt-globalkeys
+- [x] lxqt-notificationd
+- [x] lxqt-openssh-askpass
 - [ ] lxqt-panel
 - [ ] lxqt-policykit
 - [ ] lxqt-powermanagement
 - [ ] lxqt-qtplugin
 - [ ] lxqt-runner
 - [ ] lxqt-session
-- [ ] lxqt-sudo
-- [ ] lxqt-themes
-- [ ] obconf-qt
+- [x] lxqt-sudo
+- [x] lxqt-themes
+- [x] obconf-qt
 - [ ] pcmanfm-qt
-- [ ] qterminal
+- [x] qterminal
+- [x] qtermwidget
 - [ ] upower
 - [ ] xdg-utils
 - [x] liblxqt
