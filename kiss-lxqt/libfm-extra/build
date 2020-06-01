@@ -1,0 +1,14 @@
+#!/bin/sh -e
+
+./configure \
+    --prefix=/usr \
+    --disable-nls \
+    --with-extra-only \
+    --with-gtk=no \
+    --disable-static
+
+make
+make DESTDIR="$1" install
+
+# Remove conflicting symlink with libfm.
+rm "$1/usr/include/libfm"
