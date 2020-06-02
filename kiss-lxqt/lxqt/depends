@@ -1,5 +1,10 @@
+breeze-icons
+elogind
+lximage-qt
+lxmenu-data
 lxqt-about
 lxqt-admin
+lxqt-archiver
 lxqt-config
 lxqt-globalkeys
 lxqt-notificationd
@@ -13,13 +18,8 @@ lxqt-session
 lxqt-sudo
 lxqt-themes
 obconf-qt
-pcmanfm-qt
-lximage-qt
-lxmenu-data
-lxqt-archiver
-qterminal
 openbox
-breeze-icons
+pcmanfm-qt
+qterminal
+upower
 xdg-utils
-elogind
-upower"
