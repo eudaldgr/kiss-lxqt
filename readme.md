@@ -6,11 +6,11 @@
 ## Dependencies
 - [x] breeze-icons (via [kiss-kde](https://github.com/dilyn-corner/KISS-kde) repo)
 - [x] elogind (via [kiss-kde](https://github.com/dilyn-corner/KISS-kde) repo)
-- [ ] lximage-qt
-- [ ] lxmenu-data
+- [x] lximage-qt
+- [x] lxmenu-data
 - [x] lxqt-about
 - [x] lxqt-admin
-- [ ] lxqt-archiver
+- [x] lxqt-archiver
 - [x] lxqt-config
 - [x] lxqt-globalkeys
 - [x] lxqt-notificationd
@@ -18,14 +18,14 @@
 - [ ] lxqt-panel
 - [x] lxqt-policykit
 - [x] lxqt-powermanagement
-- [ ] lxqt-qtplugin
+- [x] lxqt-qtplugin
 - [x] lxqt-runner
 - [x] lxqt-session
 - [x] lxqt-sudo
 - [x] lxqt-themes
 - [x] obconf-qt
 - [x] openbox (via [community](https://github.com/kisslinux/community) repo)
-- [ ] pcmanfm-qt
+- [x] pcmanfm-qt
 - [x] qterminal
 - [ ] upower
 - [ ] xdg-utils
