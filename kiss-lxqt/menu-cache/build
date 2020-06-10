@@ -1,5 +1,9 @@
 #!/bin/sh -e
 
+patch -Np1 -i menu-cache-1.1.0-0001-Support-gcc10-compilation.patch
+
+sed -i 's,<libfm/fm-extra.h>,<libfm-1.0/fm-extra.h>,g' menu-cache-gen/*.[ch]
+
 ./configure \
     --prefix=/usr \
     --disable-static
