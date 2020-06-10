@@ -1,11 +1,14 @@
 #!/bin/sh -e
 
-./configure \
+sed -i "s/if \`\$INTLTOOL_PERL -e/if test -z \`\$INTLTOOL_PERL -e/g" configure
+
+./configure -C \
     --prefix=/usr \
-    --disable-nls \
-    --with-extra-only \
-    --with-gtk=no \
-    --disable-static
+    --with-extra-only
+
+for i in po; do
+	printf 'all:\n\ttrue\ninstall:\n\ttrue\nclean:\n\ttrue\n' > "$i/Makefile"
+done
 
 make
 make DESTDIR="$1" install
