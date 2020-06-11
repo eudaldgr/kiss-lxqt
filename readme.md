@@ -3,6 +3,8 @@
 
 - [ ] lxqt
 
+![Screenshot](screenshot.png)
+
 ## Dependencies
 - [x] breeze-icons (via [kiss-kde](https://github.com/dilyn-corner/KISS-kde) repo)
 - [x] elogind (via [kiss-kde](https://github.com/dilyn-corner/KISS-kde) repo)
@@ -37,4 +39,9 @@ $ git clone https://github.com/kisslinux/community
 $ git clone https://github.com/sdsddsd1/mywayland
 $ git clone https://github.com/dilyn-corner/KISS-kde
 $ git clone https://github.com/eudaldgr/kiss-lxqt
+
+$ export KISS_PATH=/path/to/kiss-lxqt/kiss-lxqt:$KISS_PATH
+$ export KISS_PATH=/path/to/KISS-kde/KISS-kde:$KISS_PATH
+$ export KISS_PATH=/path/to/mywayland/wayland:$KISS_PATH
+$ export KISS_PATH=/path/to/community/community:$KISS_PATH
 ```
