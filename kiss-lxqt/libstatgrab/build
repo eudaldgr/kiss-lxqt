@@ -1,0 +1,12 @@
+#!/bin/sh -e
+
+export CFLAGS="-DLINUX -DHAVE_PROCFS"
+
+autoconf
+
+./configure \
+    --prefix=/usr \
+    --disable-static
+
+make
+make -j 1 DESTDIR="$1" install
